@@ -5,7 +5,7 @@
 
   "workbench.startupEditor": "none",
   "window.title": "${activeEditorLong}${separator}${rootName}",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   // "workbench.activityBar.visible": true,
 
 
@@ -139,8 +139,7 @@
   "workbench.fontAliasing": "antialiased",
   "vsicons.presets.hideExplorerArrows": true,
   "workbench.colorTheme": "City Lights",
-  // "workbench.iconTheme": "city-lights-icons-vsc-light",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "city-lights-icons-vsc-light",
 
   "editor.tokenColorCustomizations": {
     "textMateRules": [
