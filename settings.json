@@ -1,0 +1,193 @@
+{
+  /**
+   * Workbench & window
+   */
+
+  "workbench.startupEditor": "none",
+  "window.title": "${activeEditorLong}${separator}${rootName}",
+  "window.zoomLevel": 1,
+  // "workbench.activityBar.visible": true,
+
+
+  /**
+   * Editor settings
+   */
+
+  // Start with some basic
+  // "editor.fontFamily": "'Ligconsolata Nerd Font', 'InconsolataGo Nerd Font', 'Inconsolata Nerd Font', 'Inconsolata', 'FuraCode Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "FuraCode Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+
+
+  // Prefer tabs & tabSize of 2, but use detected settings when possible
+  "editor.detectIndentation": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "none",
+
+  // Turn off automatic highlighting of current word/token
+  "editor.occurrencesHighlight": false,
+
+  // Highlight current line and gutter / line number too
+  "editor.renderLineHighlight": "all",
+
+  // Autocomplete to recently used items instead of alphabetical
+  "editor.suggestSelection": "recentlyUsed",
+
+  // Minimap
+  "editor.minimap.enabled": false,
+
+  // A multiplier to be used on the `deltaX` and `deltaY` of mouse wheel scroll events
+  "editor.mouseWheelScrollSensitivity": 5,
+
+  // We still want line numbers in zen mode
+  "zenMode.hideLineNumbers": false,
+
+
+  /**
+   * Files
+   */
+
+  // Default end of line character
+  "files.eol": "\n",
+
+  // Trim trailing whitespace when you save a file
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+
+  // File associations
+  "files.associations": {
+    "*zshrc": "shellscript",
+  },
+
+  // Glob patterns for excluding folders and files
+  "files.exclude": {
+      "**/*.git": true,
+      "**/.DS_Store": true
+    },
+
+  // Glob patterns for excluding files and folders in searches
+  "search.exclude": {
+    "**/node_modules": true,
+    "./build/**": true,
+  },
+
+
+  /**
+   * Sidebar
+   */
+
+  // Explorer
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // Debug console
+  "debug.console.fontSize": 16,
+
+  /**
+   * Panels
+   */
+
+  // Terminal
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.confirmOnExit": false,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  // "terminal.integrated.fontWeight": "normal",
+  // "terminal.integrated.fontWeightBold": "normal"
+  // "terminal.integrated.letterSpacing": 1,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.enableBell": false,
+
+
+
+  /**
+   * Linting and code formatting
+   */
+
+  // ESLint
+  "eslint.validate": ["javascript", "typescript"],
+
+  // TypeScript Compiler
+  "javascript.validate.enable": true,
+  "typescript.validate.enable": true,
+  "javascript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.surveys.enabled": false,
+
+  // Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "prettier.semi": true,
+  "prettier.trailingComma": "es5",
+  "prettier.resolveGlobalModules": true,
+  "prettier.disableLanguages": [],
+
+
+  /**
+   * Theme and colors
+   */
+
+  // Theme
+  // "terminal.integrated.rendererType": "experimentalWebgl",
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.indent": 22,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.fontAliasing": "antialiased",
+  "vsicons.presets.hideExplorerArrows": true,
+  "workbench.colorTheme": "City Lights",
+  // "workbench.iconTheme": "city-lights-icons-vsc-light",
+  "workbench.iconTheme": "vscode-icons",
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Variable",
+        "scope": "variable",
+        "settings": {
+          // "foreground": "#8BD49C"
+        }
+      },
+    ]
+  },
+
+  "workbench.colorCustomizations": {
+    // Match the editor font
+    "terminal.foreground": "#718CA1",
+    "terminal.background": "#171d23",
+
+    "terminal.ansiBlack": "#171d23",
+    "terminal.ansiRed": "#e27e8d",
+    "terminal.ansiBrightRed": "#d95468",
+    "terminal.ansiGreen": "#8BD49C",
+    "terminal.ansiYellow": "#ebbf83",
+    "terminal.ansiBrightBlue": "#5ec4ff",
+    "terminal.ansiBlue": "#68A1F0",
+    "terminal.ansiMagenta": "#b62d65",
+    "terminal.ansiCyan": "#008B94",
+    "terminal.ansiWhite": "#b7c5d3",
+    // "terminal.ansiBrightCyan": "#008B94",
+
+    "terminalCursor.foreground": "#70e1e8",
+    "terminalCursor.background": "#70e1e8",
+
+    // I think there was an error in the theme file
+    "contrastActiveBorder": "#00000000",
+  },
+
+
+  /**
+   * Extensions
+   */
+
+   // Rewrap
+  "rewrap.autoWrap.enabled": true,
+
+  // Vim shortcuts
+  "vim.useSystemClipboard": true,
+  "vim.whichwrap": "h,l",
+  "workbench.activityBar.visible": false,
+}
