@@ -15,23 +15,23 @@
     "dbaeumer.vscode-eslint",
 
     // Markdown linter
-    "davidanson.vscode-markdownlint-0.33.0",
+    "davidanson.vscode-markdownlint",
 
     // Makes cmd+d (select next occurrence) case-sensitive
-    "jacobkantzer.case-sensitive-add-next-0.0.6",
+    "jacobkantzer.case-sensitive-add-next",
 
     // Formats comments in code
-    "stkb.rewrap-1.9.1",
+    "stkb.rewrap",
 
     // Totally optional.  For the hardcores
-    "vscodevim.vim-1.12.4",
+    "vscodevim.vim",
 
     /**
      * Filetype support
      */
-    "codezombiech.gitignore-0.6.0",
+    "codezombiech.gitignore",
     "mikestead.dotenv",
-    "ecmel.vscode-html-css-0.2.3",
-    "mrmlnc.vscode-scss-0.8.1"
+    "ecmel.vscode-html-css",
+    "mrmlnc.vscode-scss"
   ]
 }
