@@ -1,0 +1,17 @@
+christian-kohler.npm-intellisense
+yummygum.city-lights-theme
+codezombiech.gitignore
+DavidAnson.vscode-markdownlint
+dbaeumer.vscode-eslint
+ecmel.vscode-html-css
+esbenp.prettier-vscode
+Gruntfuggly.todo-tree
+jacobkantzer.case-sensitive-add-next
+mikestead.dotenv
+mrmlnc.vscode-scss
+rbbit.typescript-hero
+Shan.code-settings-sync
+stkb.rewrap
+VisualStudioExptTeam.vscodeintellicode
+vscodevim.vim
+Yummygum.city-lights-icon-vsc
