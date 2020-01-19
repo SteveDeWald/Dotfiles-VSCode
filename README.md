@@ -35,3 +35,12 @@ you have the `code` command added to your path you can just do:
 ```sh
 code .
 ```
+
+### Step 4
+
+Do yourself a favor and enable keyboard repeat in Code:
+
+```sh
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
+```
